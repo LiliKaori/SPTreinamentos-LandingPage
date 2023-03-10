@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+main{
+    width: 700px;
+    height: 400px;
+    margin: 70px 140px;
+    border: 5px solid red;
+    position: relative;
+}
+
+.call{
+    display: inline-block;
+    width: 280px;
+    height: 90%;
+    overflow: hidden;
+    margin: 30px;
+}
+
+span{
+    color: red;
+}
+
+.firstImg{
+    height: 390px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+    margin: 20px 0 30px;
+}
+
+h4{
+    font-weight: normal;
+}
+
+.knowMore{
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50px;
+    margin: 30px 0 30px 40px;
+}
+
+.curses{
+    border: 1px solid white;
+    display: inline-block;
+    width: 300px;
+    margin: 40px 0 40px 40px;
+}
+
+h3{
+    margin: 20px 0;
+}
+
+li{
+    margin-top: 10px;
+}
+
+.form{
+    display: inline-block;
+    width: 300px;
+    margin: 40px 0;
+}
+
+input,select{
+    border-radius: 5px;
+    background-color: white;
+    color: gray;
+    padding: 5px;
+}
+
+#submit{
+    background-color: red;
+    color: white;
+}
